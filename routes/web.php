@@ -30,7 +30,7 @@ Route::get('edit/employee/{id}',[EmployeeController::class, 'edit'])->name('edit
 Route::post('update/employee/{id}',[EmployeeController::class, 'update'])->name('update.employee');
 Route::get('delete/employee/{id}',[EmployeeController::class, 'destroy'])->name('delete.employee');
 
-// ===== USER =====
+// ===== USER hhh=====
 Route::get('add/user',[UserController::class, 'create'])->name('add.user');
 Route::get('user/list',[UserController::class, 'index'])->name('user.list');
 Route::get('edit/user/{id}',[UserController::class, 'edit'])->name('edit.user');
